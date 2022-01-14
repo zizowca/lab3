@@ -60,13 +60,18 @@ namespace lab3
                 textBox.FontStyle = FontStyles.Normal;
             isItalic = !isItalic;
         }
-        bool isUnderline;
+        
         private void Button_Click_2(object sender, RoutedEventArgs e)
         {
 
-            if (!isUnderline)
+            if (textBox.TextDecorations == null)
+            {
                 textBox.TextDecorations = TextDecorations.Underline;
-            isUnderline = !isUnderline;
+            }
+            else
+            { 
+                textBox.TextDecorations = null; 
+            }
         }
 
         private void RadioButton_Checked(object sender, RoutedEventArgs e)
