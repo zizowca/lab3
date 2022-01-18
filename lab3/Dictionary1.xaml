@@ -1,0 +1,9 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+    <TextBlock FontSize="12" x:Key="12"/>
+    <TextBlock FontSize="14" x:Key="14"/>
+    <TextBlock FontSize="16" x:Key="16"/>
+    <TextBlock FontFamily="Arial" x:Key="arial"/>
+    <TextBlock FontFamily="Verdana" x:Key="verdana"/>
+    <TextBlock FontFamily="Times New Roman" x:Key="tnr"/>
+</ResourceDictionary>
