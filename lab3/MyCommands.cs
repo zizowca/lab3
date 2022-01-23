@@ -15,6 +15,7 @@ namespace lab3
             InputGestureCollection inputs = new InputGestureCollection();
             inputs.Add(new KeyGesture(Key.Q, ModifierKeys.Control, "Control+Q"));
             Exit = new RoutedCommand("Exit", typeof(MyCommands), inputs);
+
         }
     }
 }
